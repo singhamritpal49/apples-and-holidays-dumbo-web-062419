@@ -54,8 +54,8 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 end
 
 def all_winter_holiday_supplies(holiday_hash)
-  holiday_supplies[:winter][:christmas]
-  holiday_supplies[:winter][:new_years]
+  holiday_hash[:winter][:christmas]
+  holiday_hash[:winter][:new_years]
 
   # return an array of all of the supplies that are used in the winter season
 
